@@ -314,67 +314,20 @@ h1, h2, h3, h4 {
                     </div>
                 </div>
                 
-               <div class="service-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl">
-    <img src="eje.jpg" alt="Ejercicios y Fitness" class="w-full h-48 object-cover">
-    <div class="p-5">
-        <h3 class="text-xl font-bold mb-2 text-green-700">Ejercicios y Fitness</h3>
-        <p class="text-gray-600 mb-3">ESTIRAMIENTO YOGA FUERZA CHIKUNG</p>
-        <div class="flex items-center text-sm text-gray-500">
-            <span class="material-icons text-yellow-500 mr-1 text-sm">schedule</span>Horario: A Cualquier Hora
-        </div>
-        
-        <!-- Videos organizados con nombres -->
-        <div class="mt-4 space-y-3">
-            <!-- Video 1 - Estiramiento Matutino -->
-            <div>
-                <p class="text-gray-700 font-medium mb-1">Estiramiento Matutino</p>
-                <button onclick="openVideoModal('srvrIN3dnXE')" class="w-full px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg flex items-center justify-center">
-                    <span class="material-icons mr-2">live_tv</span>Ver Video
-                </button>
-            </div>
-            
-            <!-- Video 2 - Yoga para Principiantes -->
-            <div>
-                <p class="text-gray-700 font-medium mb-1">Yoga para Principiantes</p>
-                <button onclick="openVideoModal('VIDEO_ID_2')" class="w-full px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg flex items-center justify-center">
-                    <span class="material-icons mr-2">live_tv</span>Ver Video
-                </button>
-            </div>
-            
-            <!-- Video 3 - Rutina de Fuerza -->
-            <div>
-                <p class="text-gray-700 font-medium mb-1">Rutina de Fuerza</p>
-                <button onclick="openVideoModal('VIDEO_ID_3')" class="w-full px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg flex items-center justify-center">
-                    <span class="material-icons mr-2">live_tv</span>Ver Video
-                </button>
-            </div>
-            
-            <!-- Video 4 - Chikung Energético -->
-            <div>
-                <p class="text-gray-700 font-medium mb-1">Chikung Energético</p>
-                <button onclick="openVideoModal('VIDEO_ID_4')" class="w-full px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg flex items-center justify-center">
-                    <span class="material-icons mr-2">live_tv</span>Ver Video
-                </button>
-            </div>
-            
-            <!-- Video 5 - Core y Abdominales -->
-            <div>
-                <p class="text-gray-700 font-medium mb-1">Core y Abdominales</p>
-                <button onclick="openVideoModal('VIDEO_ID_5')" class="w-full px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg flex items-center justify-center">
-                    <span class="material-icons mr-2">live_tv</span>Ver Video
-                </button>
-            </div>
-            
-            <!-- Video 6 - Relajación Post-Ejercicio -->
-            <div>
-                <p class="text-gray-700 font-medium mb-1">Relajación Post-Ejercicio</p>
-                <button onclick="openVideoModal('VIDEO_ID_6')" class="w-full px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg flex items-center justify-center">
-                    <span class="material-icons mr-2">live_tv</span>Ver Video
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
+                <!-- Supermercado cambiado a Ejercicios y Fitness -->
+                <div class="service-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl">
+                    <img src="eje.jpg" alt="Ejercicios y Fitness" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold mb-2 text-green-700">Ejercicios y Fitness</h3>
+                        <p class="text-gray-600 mb-3">ESTIRAMIENTO YOGA FUERZA CHIKUNG</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <span class="material-icons text-yellow-500 mr-1 text-sm">schedule</span>Horario: A Cualquier Hora
+                            <button onclick="openVideoModal('srvrIN3dnXE')" class="w-full mt-3 px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg flex items-center justify-center">
+                            <span class="material-icons mr-2">live_tv</span>
+                    </button>
+                         </div>
+                    </div>
+                </div>
 
              <div class="service-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-xl">
                     <img src="99.jpg" alt="Abogados" class="w-full h-48 object-cover">
@@ -576,7 +529,7 @@ h1, h2, h3, h4 {
         </div>
     </footer>
 
-    <!-- Modal de Login -->
+    <!-- Modal de Login Actualizado -->
     <div id="loginModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center hidden">
         <div class="bg-white rounded-xl shadow-2xl w-full max-w-md mx-4">
             <div class="p-6">
@@ -586,8 +539,8 @@ h1, h2, h3, h4 {
                 </div>
                 <form id="loginForm" class="space-y-4">
                     <div>
-                        <label for="apartment" class="block text-sm font-medium text-gray-700 mb-1">Apartamento</label>
-                        <input type="text" id="apartment" required placeholder="Ej: Torre 1 - 101" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Correo Electrónico</label>
+                        <input type="email" id="email" required placeholder="tucorreo@ejemplo.com" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
                     </div>
                     <div>
                         <label for="pin" class="block text-sm font-medium text-gray-700 mb-1">PIN de acceso</label>
@@ -599,9 +552,27 @@ h1, h2, h3, h4 {
                         </button>
                     </div>
                     <div class="text-center text-sm text-gray-600">
-                        <p>¿No tienes acceso? <a href="#" class="text-green-600 hover:underline">Solicítalo aquí</a></p>
+                        <p>¿No tienes acceso? <a href="#" id="requestAccess" class="text-green-600 hover:underline">Solicítalo aquí</a></p>
                     </div>
-                 </form>
+                </form>
+                
+                <!-- Modal para solicitar acceso -->
+                <div id="requestModal" class="hidden mt-6 p-4 bg-gray-50 rounded-lg">
+                    <h4 class="text-lg font-semibold mb-3 text-green-700">Solicitar Credenciales</h4>
+                    <div class="mb-4">
+                        <label for="requestEmail" class="block text-sm font-medium text-gray-700 mb-1">Correo Electrónico</label>
+                        <input type="email" id="requestEmail" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+                    </div>
+                    <button id="generateCredentials" class="w-full bg-yellow-500 hover:bg-yellow-600 text-gray-900 py-2 px-4 rounded-lg font-medium transition flex items-center justify-center">
+                        <span class="material-icons mr-2">vpn_key</span>Generar Credenciales
+                    </button>
+                    <div id="generatedCredentials" class="hidden mt-4 p-3 bg-green-100 border border-green-200 rounded-lg">
+                        <p class="text-sm font-medium text-green-800">Guarda estas credenciales:</p>
+                        <p class="text-sm mt-1"><span class="font-semibold">Correo:</span> <span id="displayEmail"></span></p>
+                        <p class="text-sm"><span class="font-semibold">PIN:</span> <span id="displayPin"></span></p>
+                        <p class="text-xs mt-2 text-green-600">Estas credenciales se han guardado en este dispositivo.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -622,10 +593,16 @@ h1, h2, h3, h4 {
             const loginBtn = document.getElementById('loginBtn');
             const loginModal = document.getElementById('loginModal');
             const closeModal = document.getElementById('closeModal');
+            const requestAccess = document.getElementById('requestAccess');
+            const requestModal = document.getElementById('requestModal');
+            const generateCredentials = document.getElementById('generateCredentials');
+            const generatedCredentials = document.getElementById('generatedCredentials');
             
             loginBtn.addEventListener('click', function(e) {
                 e.preventDefault();
                 loginModal.style.display = 'flex';
+                requestModal.classList.add('hidden');
+                generatedCredentials.classList.add('hidden');
             });
             
             closeModal.addEventListener('click', function() {
@@ -638,18 +615,64 @@ h1, h2, h3, h4 {
                 }
             });
             
+            // Mostrar formulario para solicitar acceso
+            requestAccess.addEventListener('click', function(e) {
+                e.preventDefault();
+                requestModal.classList.remove('hidden');
+                generatedCredentials.classList.add('hidden');
+            });
+            
+            // Generar credenciales aleatorias
+            generateCredentials.addEventListener('click', function() {
+                const email = document.getElementById('requestEmail').value;
+                
+                if(!email) {
+                    showAlert('Por favor ingresa un correo electrónico válido', 'error');
+                    return;
+                }
+                
+                // Generar PIN aleatorio de 6 dígitos
+                const pin = Math.floor(100000 + Math.random() * 900000).toString();
+                
+                // Guardar en localStorage
+                localStorage.setItem('residentCredentials', JSON.stringify({
+                    email: email,
+                    pin: pin
+                }));
+                
+                // Mostrar credenciales generadas
+                document.getElementById('displayEmail').textContent = email;
+                document.getElementById('displayPin').textContent = pin;
+                generatedCredentials.classList.remove('hidden');
+                
+                showAlert('Credenciales generadas y guardadas correctamente', 'success');
+            });
+            
+            // Validar credenciales al hacer login - MODIFICADO PARA REDIRIGIR A PAGINA2.HTML
             document.getElementById('loginForm').addEventListener('submit', function(e) {
                 e.preventDefault();
-                const apartment = document.getElementById('apartment').value;
+                const email = document.getElementById('email').value;
                 const pin = document.getElementById('pin').value;
                 
-                if(apartment && pin) {
+                // Obtener credenciales guardadas
+                const savedCredentials = localStorage.getItem('residentCredentials');
+                
+                if(!savedCredentials) {
+                    showAlert('No hay credenciales guardadas. Solicita acceso primero.', 'error');
+                    return;
+                }
+                
+                const credentials = JSON.parse(savedCredentials);
+                
+                if(email === credentials.email && pin === credentials.pin) {
                     showAlert('Acceso concedido. Redirigiendo...', 'success');
                     setTimeout(() => {
                         loginModal.style.display = 'none';
+                        // Redirigir a pagina2.html después de 1.5 segundos
+                        window.location.href = 'pagina2.html';
                     }, 1500);
                 } else {
-                    showAlert('Por favor complete todos los campos', 'error');
+                    showAlert('Credenciales incorrectas. Verifica tu correo y PIN.', 'error');
                 }
             });
             
